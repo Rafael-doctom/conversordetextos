@@ -1,0 +1,27 @@
+header h1 a {
+    color: #0d6efd;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: none;
+}
+
+header {
+    /* margin: 1rem 10rem; */
+}
+
+
+p {
+    color: #212529;
+    font-weight: 500;
+}
+
+textarea.form-control:focus {
+    border-color: #10101044;
+    box-shadow: none;
+}
+
+#response {
+    margin: 1rem 0 0 0 !important;
+
+}

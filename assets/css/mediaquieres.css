@@ -1,0 +1,51 @@
+@media  (min-width:375px) {
+    body{
+        margin: 1rem 1rem;
+        
+    }
+
+    .form-floating{
+        max-width: 100%;
+    }
+    
+}
+
+@media  (min-width:1024px) {
+    body{
+        margin: 1rem 5rem;
+        
+    }
+
+    .form-floating{
+        max-width: 90%;
+    }
+    
+}
+
+@media  (min-width:1200px) {
+    body{
+        margin: 1rem 5rem;
+        
+    }
+
+    .form-floating{
+        max-width: 80%;
+    }
+    
+}
+
+
+@media  (min-width:1400px) {
+    body{
+        margin: 1rem 8rem;
+        
+    }
+
+    .form-floating{
+        max-width: 70%;
+    }
+    
+    hr{
+        max-width: 80%; 
+    }
+}

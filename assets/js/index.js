@@ -42,10 +42,7 @@ smallLetters.addEventListener('click', () => {
 
 // count lenght
 qtdLength.addEventListener('click', () => {
-    // alert('rafa')
-
     responseInner.innerHTML = `${txt.value.length}`;
-
 })
 
 

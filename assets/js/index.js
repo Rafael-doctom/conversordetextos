@@ -4,7 +4,7 @@ let responseInner = document.querySelector("#response");
 let btnClear = document.querySelector("#clear");
 let capitalLetters = document.querySelector('#capital-letters');
 let smallLetters = document.querySelector('#small-letters');
-
+let qtdLength = document.querySelector('#qtd-length');
 
 // copiar texto
 btn_copy.addEventListener('click', (e) => {
@@ -40,6 +40,14 @@ smallLetters.addEventListener('click', () => {
 
 });
 
+// count lenght
+qtdLength.addEventListener('click', () => {
+    // alert('rafa')
+
+    responseInner.innerHTML = `${txt.value.length}`;
+
+})
+
 
 // Limpar texto
 btnClear.addEventListener('click', () => {
@@ -48,3 +56,4 @@ btnClear.addEventListener('click', () => {
         responseInner.innerHTML = '';
     }
 });
+

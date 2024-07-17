@@ -8,10 +8,6 @@
         max-width: 100%;
     }
 
-    .btn{
-        margin: 0.2rem 0;
-    }
-    
 }
 
 @media  (min-width:1024px) {
@@ -23,7 +19,8 @@
     .form-floating{
         max-width: 90%;
     }
-    
+
+   
 }
 
 @media  (min-width:1200px) {
@@ -35,7 +32,22 @@
     .form-floating{
         max-width: 80%;
     }
+
+   
     
+    
+}
+
+@media (max-width:1024px){
+    aside{
+        background-color: red !important;
+        display: none !important;
+    }
+
+    .main-content {
+        margin-left: 10px  !important;
+        width: calc(100% - 0px) !important;
+    }
 }
 
 

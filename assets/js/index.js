@@ -6,7 +6,6 @@ let capitalLetters = document.querySelector('#capital-letters');
 let smallLetters = document.querySelector('#small-letters');
 let qtdLength = document.querySelector('#qtd-length');
 
-// copiar texto
 btn_copy.addEventListener('click', (e) => {
     txt.select();
     document.execCommand("copy");
@@ -22,7 +21,6 @@ btn_copy.addEventListener('click', (e) => {
 
 });
 
-// LETRAS MAIÚSCULAS
 capitalLetters.addEventListener('click', () => {
 
     let letter = txt.value.toUpperCase();
@@ -31,7 +29,6 @@ capitalLetters.addEventListener('click', () => {
 
 });
 
-// small letter
 smallLetters.addEventListener('click', () => {
 
     let letter = txt.value.toLowerCase();
@@ -40,13 +37,11 @@ smallLetters.addEventListener('click', () => {
 
 });
 
-// count lenght
 qtdLength.addEventListener('click', () => {
     responseInner.innerHTML = `${txt.value.length}`;
 })
 
 
-// Limpar texto
 btnClear.addEventListener('click', () => {
     if (txt.value !== '') {
         txt.value = '';

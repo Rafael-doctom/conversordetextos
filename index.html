@@ -24,49 +24,56 @@
     <link rel="stylesheet" href="assets/css/index.css">
 
     <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-8740458389056041"
-     crossorigin="anonymous"></script>
+        crossorigin="anonymous"></script>
 
+    <style>
+
+    </style>
 </head>
 
 <body>
 
-    <header>
-        <h1>
-            <a href="/">
-                Conversor de Texto
-            </a>
-        </h1>
-        <p>
-            Basta inserir seu texto e escolher o uso para qual deseja convertê-lo.
-        </p>
-    </header>
+    <aside>
+        <ul>
+            <li>
+                <a href="/pages/copiartexto.html">
+                    <button class="btn btn-secondary">copiar texto</button>
+                </a>
+            </li>
+        </ul>
+    </aside>
 
-    <div class="form-floating">
-        <textarea class="form-control" id="floatingTextarea2" style="height: 200px"></textarea>
+    <div class="main-content">
+        <header>
+            <h1>
+                <a href="/">
+                    Conversor de Texto
+                </a>
+            </h1>
+            <p>
+                Basta inserir seu texto e escolher o uso para qual deseja convertê-lo.
+            </p>
+        </header>
 
-        <label for="floatingTextarea2">
-            Seu texto...
-        </label>
+        <div class="form-floating">
+            <textarea class="form-control" id="floatingTextarea2" style="height: 200px"></textarea>
+            <label for="floatingTextarea2">
+                Seu texto...
+            </label>
+        </div>
+
+        <div id="response"></div>
+
+        <hr>
+
+        <div class="btn-controls">
+            <button class="btn btn-primary" id="copy">Copiar</button>
+            <button class="btn btn-primary" id="capital-letters">LETRAS MAIÚSCULAS</button>
+            <button class="btn btn-primary" id="small-letters">letras minúsculas</button>
+            <button class="btn btn-primary" id="qtd-length">Quantidade de Caracteres</button>
+            <button class="btn btn-primary" id="clear"> Limpar</button>
+        </div>
     </div>
-
-    <div id="response">
-
-    </div>
-
-    <hr>
-
-
-
-    <div class="btn-controls">
-        <button class="btn btn-primary" id="copy">Copiar</button>
-        <button class="btn btn-primary" id="capital-letters">LETRAS MAIÚSCULAS</button>
-        <button class="btn btn-primary" id="small-letters">letras minúsculas</button>
-        <button class="btn btn-primary" id="qtd-length">Quantidade de Caracteres</button>
-        <button class="btn btn-primary" id="clear"> Limpar</button>
-
-    </div>
-
-
 
     <script src="assets/js/index.js"></script>
 

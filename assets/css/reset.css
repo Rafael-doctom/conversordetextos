@@ -8,11 +8,13 @@ a, ul, li{
     text-decoration: none;
     text-transform: none;
     list-style: none;
+    margin: 0;
+    padding: 0 0;
 }
 
 
 body{
-    /* margin: 1rem 10rem; */
+    margin:0rem 0rem;
 }
 
 

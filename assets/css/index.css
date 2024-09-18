@@ -8,6 +8,32 @@ header h1 a {
 
 header {
     /* margin: 1rem 10rem; */
+
+    display: flex;
+
+    justify-content: space-between;
+}
+
+header .menu_boots{
+    /* width: 100%; */
+    /* display: block; */
+    
+}
+
+.navbar-expand-lg .navbar-collapse{
+    justify-content: right;
+    background-color: #171717;
+
+    border: 0;
+    border-radius: 16px;
+
+    padding: 5px 10px;
+
+}
+
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: white  !important;
+
 }
 
 

@@ -36,6 +36,9 @@ header .menu_boots{
 
 }
 
+.dropdown-toggle::after{
+    display: none;
+}
 
 p {
     color: #212529;

@@ -51,7 +51,7 @@ document.addEventListener('DOMContentLoaded', () => {
         else if (e.target.matches('#capitalize-words')) {
             let capitalizedText = txt.value.replace(/\b\w/g, char => char.toUpperCase());
             txt.value = capitalizedText;
-            responseInner.innerHTML = 'Início de cada palavra capitalizado!';
+            responseInner.innerHTML = capitalizedText;
         }
 
         else if (e.target.matches('#clear')) {

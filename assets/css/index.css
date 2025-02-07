@@ -110,3 +110,19 @@ header {
 .btn-controls button {
     margin: 0.5rem 3px 0 0;
 }
+
+.sobre {
+    margin-left: 250px;
+    padding: 20px;
+    width: calc(100% - 250px);
+    max-width: 60%;
+}
+
+@media (max-width:1024px){
+    .sobre {
+        margin-left: 10px  !important;
+        width: calc(100% - 0px) !important;
+
+        max-width: 90%;
+    }
+}

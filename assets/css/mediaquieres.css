@@ -145,11 +145,10 @@
         border: 0 !important;
         background-color: transparent !important;
 
-              color: white !important;
+              /* color: white !important; */
     }
 
     button:focus:not(:focus-visible) .navbar-toggler-icon{
-              color: white !important;
 
     }
 }

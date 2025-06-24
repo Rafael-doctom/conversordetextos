@@ -69,7 +69,7 @@
     }
 }
 
-@media (max-width:375px) {
+@media (max-width:425px) {
 
     .logo_and_description h1 a {
         font-size: 22px !important;
@@ -86,7 +86,7 @@
 
     .navbar-expand-lg .navbar-collapse {
         justify-content: left !important;
-        background-color: #101010 !important;
+        background-color: #1f1f1f !important;
         border: 0;
         border-radius: 16px;
         padding: 5px 33px !important;
@@ -129,18 +129,27 @@
         transition: var(--bs-navbar-toggler-transition);
     }
 
-    .bg-light{
-            --bs-bg-opacity: 1;
-    background-color: transparent !important;
+    .bg-light {
+        --bs-bg-opacity: 1;
+        background-color: transparent !important;
+
+              color: white !important;
     }
 
-     .bg-light:focus{
-            --bs-bg-opacity: 1;
-    background-color: transparent !important;
+    .bg-light:focus {
+        --bs-bg-opacity: 1;
+        background-color: transparent !important;
     }
 
-    button:focus:not(:focus-visible){
+    button:focus:not(:focus-visible) {
         border: 0 !important;
         background-color: transparent !important;
+
+              color: white !important;
+    }
+
+    button:focus:not(:focus-visible) .navbar-toggler-icon{
+              color: white !important;
+
     }
 }

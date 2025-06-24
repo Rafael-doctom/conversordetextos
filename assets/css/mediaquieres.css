@@ -1,70 +1,146 @@
-@media  (min-width:375px) {
-    body{
+@media (min-width:375px) {
+    body {
         margin: 1rem 1rem;
-        
+
     }
 
-    .form-floating{
+    .form-floating {
         max-width: 100%;
     }
 
 }
 
-@media  (min-width:1024px) {
-    body{
+@media (min-width:1024px) {
+    body {
         margin: 1rem 5rem;
-        
+
     }
 
-    .form-floating{
+    .form-floating {
         max-width: 90%;
     }
 
-   
+
 }
 
-@media  (min-width:1200px) {
-    body{
+@media (min-width:1200px) {
+    body {
         margin: 1rem 5rem;
-        
+
     }
 
-    .form-floating{
+    .form-floating {
         max-width: 80%;
     }
 
-    .btn-controls{
+    .btn-controls {
         max-width: 80%;
     }
-   
-    
-    
+
+
+
 }
 
-@media (max-width:1024px){
-    aside{
+@media (max-width:1024px) {
+    aside {
         background-color: red !important;
         display: none !important;
     }
 
     .main-content {
-        margin-left: 10px  !important;
+        margin-left: 10px !important;
         width: calc(100% - 0px) !important;
     }
 }
 
 
-@media  (min-width:1400px) {
-    body{
+@media (min-width:1400px) {
+    body {
         margin: 1rem 8rem;
-        
+
     }
 
-    .form-floating{
+    .form-floating {
         max-width: 70%;
     }
-    
-    hr{
-        max-width: 80%; 
+
+    hr {
+        max-width: 80%;
+    }
+}
+
+@media (max-width:375px) {
+
+    .logo_and_description h1 a {
+        font-size: 22px !important;
+    }
+
+    .logo_and_description p {
+        font-size: 14px !important;
+    }
+
+
+    aside {
+        display: none !important;
+    }
+
+    .navbar-expand-lg .navbar-collapse {
+        justify-content: left !important;
+        background-color: #101010 !important;
+        border: 0;
+        border-radius: 16px;
+        padding: 5px 33px !important;
+
+        min-width: 100vw !important;
+
+        position: fixed !important;
+
+        /* margin-top:0rem  !important; */
+        top: 0px !important;
+        margin-left: 0 !important;
+        left: 0 !important;
+        z-index: 998 !important;
+        min-height: 100vh !important;
+        align-self: center;
+        align-content: center;
+
+
+    }
+
+    .navbar-nav {
+        width: 100% !important;
+
+    }
+
+    body>div.main-content>header>div.menu_boots>nav>button {
+        z-index: 999;
+        right: 20px !important;
+        top: 27px !important;
+    }
+
+    .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color: var(--bs-navbar-color);
+        background-color: transparent !important;
+        border: 0 !important;
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+    }
+
+    .bg-light{
+            --bs-bg-opacity: 1;
+    background-color: transparent !important;
+    }
+
+     .bg-light:focus{
+            --bs-bg-opacity: 1;
+    background-color: transparent !important;
+    }
+
+    button:focus:not(:focus-visible){
+        border: 0 !important;
+        background-color: transparent !important;
     }
 }

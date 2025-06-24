@@ -50,6 +50,24 @@ textarea.form-control:focus {
     box-shadow: none;
 }
 
+/* frase */
+.card-copiado {
+  border-color: #28a745 !important; /* verde, exemplo */
+  box-shadow: 0 0 8px #28a745;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* palavra */
+.card {
+  transition: border 0.3s, box-shadow 0.3s;
+  border: 2px solid #ccc;
+}
+.card-copiado {
+  border-color: #28a745 !important;
+  box-shadow: 0 0 10px #28a745;
+}
+
+
 #response {
     margin: 1rem 0 0 0 !important;
 

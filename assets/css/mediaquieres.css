@@ -122,7 +122,7 @@
         padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
         font-size: var(--bs-navbar-toggler-font-size);
         line-height: 1;
-        color: var(--bs-navbar-color);
+        color: transparent !important;
         background-color: transparent !important;
         border: 0 !important;
         border-radius: var(--bs-navbar-toggler-border-radius);

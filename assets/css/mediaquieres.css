@@ -88,7 +88,7 @@
         justify-content: left !important;
         background-color: #0d6efd !important;
         border: 0;
-        border-radius: 16px;
+        border-radius: 0px !important;
         padding: 5px 33px !important;
 
         min-width: 100vw !important;

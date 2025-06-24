@@ -142,10 +142,9 @@
     }
 
     button:focus:not(:focus-visible) {
-        border: 0 !important;
+        border: 1px solid rgba(245, 243, 243, 0.26) !important;
         background-color: transparent !important;
 
-              /* color: white !important; */
     }
 
     button:focus:not(:focus-visible) .navbar-toggler-icon{

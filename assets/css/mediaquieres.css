@@ -70,6 +70,12 @@
 }
 
 @media (max-width:425px) {
+    
+    .main-content{
+
+        padding: 10px 10px !important;
+    }
+
 
     .logo_and_description h1 a {
         font-size: 22px !important;

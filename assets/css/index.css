@@ -139,10 +139,12 @@ header {
 
 @media (max-width:1024px){
     .sobre {
-        margin-left: 10px  !important;
+        margin-left: 0px  !important;
         width: calc(100% - 0px) !important;
 
         max-width: 90%;
+
+        background-color: red !important;
     }
 }
 
